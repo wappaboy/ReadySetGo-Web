@@ -286,6 +286,18 @@ section h2 span {
 		vertical-align: top;
 		text-align: left;
 	}
+
+	.col4{
+		text-align: center;
+	}
+
+	.col4 li{
+		display: inline-block;
+		width: 15%;
+		padding: 0 3%;
+		vertical-align: top;
+		text-align: left;
+	}
 	
 	#map iframe{
 		height: 200px !important;
@@ -469,6 +481,11 @@ section h2 span {
 		border: 0;
 	}
 	.col3 li{
+		margin: 0 auto 50px;
+		display: block;
+		text-align: center;
+	}
+	.col4 li{
 		margin: 0 auto 50px;
 		display: block;
 		text-align: center;
